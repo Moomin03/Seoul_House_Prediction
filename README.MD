@@ -9,9 +9,10 @@
 ### 2. Technique
 | Technique | Language | Purpose |
 |:---------:|:--------:|---------|
-|    Back-end   |   Flask  |   데이터 구현   |
-|   Front   |   React  |  페이지 작성  |
+|    Back-end   |   Flask  |   백엔드 조성   |
+|   Front   |   React  |  프론트엔드 조성  |
 |    Data-Analysis   |   Pandas  |   데이터 가공   |
+|    Machine-Learning   |   scikit-learn, xgboost  |   데이터 학습   |
 
 
 ### 3. Insight
@@ -54,7 +55,7 @@
 	[XGB Regressor] 테스트 R^2 :  0.9492595702741051
 	- XGBRegressor 모델은 점수가 낮지도 않았고, 과적합된 모습도 보이지 않아서 해당 모델의 파라미터만 조금 조정해주면 좋은 결과가 나올것이라고 예측했습니다.
 
-![Pic2](https://github.com/Moomin03/Seoul_House_Prediction/blob/master/서울시%20집값%20데이터%20분석.ipynb)
+![Pic2](https://github.com/Moomin03/Seoul_House_Prediction/blob/master/XGBRegressor%20특성%20중요도.png)
 
     Step 3. 마지막으로 LGBMRegressor 모델을 사용했습니다.
 	[LGB Regressor] 훈련 R^2 :  0.9659473029709253
