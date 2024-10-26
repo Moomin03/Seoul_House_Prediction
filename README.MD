@@ -1,5 +1,21 @@
 ## 🏦 RoomBuddy (서울시 집값 예측 프로그램)
 ---
+### 0. Development Environment 🚀
+    1. Operating System : mac OS (Sequoia 15.0.1(24A348))
+    2. Language : Python (3.9.6)
+    3. Web Environment : Safari(version 18.0.1(20619.1.26.31.7)-Jupyter Notebook)
+    4. Directory : 
+```sh
+├─RoomBuddy
+│  └─Jupyter Notebook
+│  │  │   서울시 집값 데이터 분석.ipynb
+│  └─Image
+│  │  │   XGBRegressor 특성 중요도.png
+│  │  │   다중회귀ㅜ 특성 중요도.png
+│  │  │   서울 자치별 연간 거래횟수 변화.png
+│  └─README.MD
+```
+
 ### 1. Introduction
     대부분의 사람은 아니지만, 많은 사람들이 집을 갖기 위해서 평생을 일하고, 살아가지만 정작 부동산을 구매하는 것 자체가 힘들다.
     어떻게 해야 사람들이 본인에게 맞는 집을 찾을 수 있을지에 대해서, 항상 궁금증을 가졌었고 이 프로그램은 다른 사람들이 사용해도 되지만, 나를 위한 프로그램이다.
@@ -77,17 +93,6 @@
     학습 모델에 대한 최고 점수 : 훈련 > 98.6%
                                : 테스트 > 95%
 
-### 7. Dataset Source
-```sh
-├─RoomBuddy
-...
-│  └─Datasets
-│  │  │   서울시 부동산 실거래가 2014~2023.csv (출처 : 서울 열린데이터광장)
-│  │  │   서울시 범죄 검거 현황.csv (출처 : 서울 열린데이터광장)
-│  │  │   서울시 범죄 발생 현황.csv (출처 : 서울 열린데이터광장)
-│  │  │   서울시 병원수.csv (출처 : 서울 열린데이터광장)
-│  │  │   서울시 고용지표.csv (출처 : 서울 열린데이터광장)
-```
-### 8. Presentation
+### 7. Presentation
 
 
